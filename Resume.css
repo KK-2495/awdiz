@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.name0 {
+    margin-top: 40px;
+}
+
+.name {
+    /* padding: 25px; */
+    padding-left: 40px;
+}
+.name h3 {
+    padding: 10px 10px 20px 100px;
+    
+}
+.about {
+    padding-left: 100px;
+    font-size: 120%;
+    font-weight: 500;
+}
+.info {
+    padding-left: 150px;
+    font-size: 100%;
+    text-align: left;
+}
+.detail .info{
+    padding-left: 60px;
+
+}
+.about1 {
+    padding: 10px 10px 20px;
+    /* padding-left: 20px; */
+
+}
+.about1 td {
+    text-align: center;
+    border: 2px solid black;
+}
+.about1 table {
+    text-align: center;
+    border: 2px solid black;
+}
+.about1 .experience {
+    padding-left: 180px;
+}
+.about1 .Weakness {
+    padding-right: 220px;
+}
+.about1 .Hobbies {
+    padding-right: 230px;
+}
+.about1 ul {
+    margin-left: 200px;
+}
