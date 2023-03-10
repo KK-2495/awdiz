@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: whitesmoke;
+}
+.navBar0 img {
+    width: 53px;
+    height:50px;
+}
+.navBar1 {
+    /* background-color: red; */
+    display: flex;
+    list-style: none;
+    margin-right: 150px;
+    font-weight: 500;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+.navBar1 li {
+    margin-right: 40px;
+    background-color: aquamarine;
+}
+.navBar2 {
+    /* margin-right: 200px; */
+
+
+}
+.navBar3 {
+    display: flex;
+    list-style: none;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+
+}
