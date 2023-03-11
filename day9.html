@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Day 9</title>
+        <script src="https://kit.fontawesome.com/3f7f3f9444.js" crossorigin="anonymous"></script>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            #screen {
+                width: 100%;
+                /* height: 500px; */
+                display: flex;
+                justify-content: space-around;
+            }
+
+            #screen>div:nth-child(1) {
+                width: 30%;
+                /* border: 2px solid red; */
+                background-image: url(https://i.pinimg.com/236x/16/2a/b6/162ab653a32f3a80e8f0fb20300548f9--twitter-headers-iphone-wallpaper.jpg);
+
+            }
+
+            #screen>div:nth-child(2) {
+                width: 50%;
+                /* border: 2px solid red; */
+                position: relative;
+                left:-13%;
+            }
+
+            #screen>div:nth-child(2)>div:nth-child(1)>p {
+                width: 75%;
+                margin: auto;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: bold;
+                font-size: 50px;
+                margin-top: 20px;
+                padding-bottom: 30px;
+            }
+
+            #screen>div:nth-child(2)>div:nth-child(2) {
+                width: 75%;
+                margin: auto;
+                border-top: 2px solid black;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+
+            #screen>div:nth-child(2)>div:nth-child(2)>:nth-child(1) {
+                font-weight: bold;
+            }
+
+            #screen>div:nth-child(2) > div:nth-child(3) {
+                width: 75%;
+                margin: auto;
+                border-top: 2px solid black;
+                padding-top: 10px;
+            }
+            #screen>div:nth-child(2) > div:nth-child(3)>:nth-child(1) {
+                font-weight: bold;
+            }
+            #screen>div:nth-child(2) > div:nth-child(3)>:nth-child(5) {
+                padding: 10px 0;
+            }
+            #screen>div:nth-child(2) > div:nth-child(3)>:nth-child(6) {
+                margin-left: 15px;
+                margin-top: 5px;
+            }
+            #screen>div:nth-child(2) > div:nth-child(3)>:nth-child(4) {
+                margin-left: 15px;
+                margin-top: 5px;
+            }
+
+            #screen>div:nth-child(1)>div:nth-child(1) {
+                width: 80%;
+                margin: auto;
+            }
+
+            #screen>div:nth-child(1)>div:nth-child(2) {
+                border-bottom: 2px solid black;
+                width: 80%;
+                margin: auto;
+            }
+
+            #screen>div:nth-child(1)>div:nth-child(1)>img {
+                width: 30%;
+                /* margin: auto; */
+                height: 100px;
+                margin-top: 20px;
+                margin-left: 100px;
+                margin-bottom: 20px;
+            }
+
+            #screen>div:nth-child(1)>div:nth-child(2)>div {
+                display: flex;
+                margin-bottom: 10px;
+                color: white;
+            }
+
+            #screen>div:nth-child(1)>div:nth-child(2)>div>p {
+                margin-left: 10px;
+            }
+
+            #thirdLeftDiv {
+                width: 80%;
+                margin: auto;
+                margin-top: 20px;
+                border-bottom: 2px solid black;
+                color: white;
+
+            }
+
+            #thirdLeftDiv>p {
+                font-weight: bold;
+
+            }
+
+            #thirdLeftDiv>div:nth-child(2) {
+                margin-left: 15px;
+                margin-bottom: 10px;
+
+            }
+
+            #screen>div:nth-child(1)>div:nth-child(4) {
+                width: 80%;
+                margin: auto;
+                margin-top: 20px;
+                padding-bottom: 10px;
+                border-bottom: 2px solid black;
+                color: white;
+
+            }
+            #screen>div:nth-child(1)>div:nth-child(5) {
+                width: 80%;
+                margin: auto;
+                margin-top: 20px;
+                color: white;
+
+            }
+            #screen>div:nth-child(1)>div:nth-child(5)>:nth-child(1) {
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            #screen>div:nth-child(1)>div:nth-child(4)>:nth-child(1) {
+                font-weight: bold;
+            }
+
+            #screen>div:nth-child(1)>div:nth-child(4)>:nth-child(2) {
+                margin-top: 5px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="screen">
+            <div>
+                <div>
+                    <img src="/my-passport-photo.jpg" alt="My picture">
+                </div>
+                <div>
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                        <p>9920857475</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Mumbai</p>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>krishnanknadar@gmail.com</p>
+                    </div>
+                </div>
+                <div id="thirdLeftDiv">
+                    <p>SKILLS</p>
+                    <div>
+                        <ul>
+                            <li>Group and individual instructions</li>
+                            <li>Group and individual instructions</li>
+                            <li>Group and individual instructions</li>
+                            <li>Group and individual instructions</li>
+                            <li>Group and individual instructions</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <p>EDUCATION</p>
+                    <p> <strong>Bachelor of Science |</strong> <br />
+                        Computer Science <br />Mumbai University, Mumbai, Maharashtra</p>
+                </div>
+                <div>
+                    <p>CERTIFICATION</p>
+                    <li>Valid Georgia's Teaching
+                        License - Georgia
+                        Professional Standards
+                        Commission (GaPSC)</li>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <p> Krishnan Nadar </p>
+                </div>
+                <div>
+                    <p>SUMMARY STATEMENT</p> <br />
+                    <p>
+                        Skilled Math Teacher with innovative and engaging teaching
+                        style demonstrated over seven years of academic
+                        experience. Caring and hardworking professional with
+                        exceptional work ethic and commitment to cultivating
+                        productive learning environments to drive student progress
+                        and comprehension.</p>
+                </div>
+                <div>
+                    <p>WORK HISTORY</p> <br />
+                    <p>September 2018 - Current <br /> <strong> High School Math Teacher Cherokee High School|</strong> <br />
+                        Canton, GA</p>
+                        <ul>
+                            <li>Provide meaningful math instruction to improve the math
+                                skills of children.</li>
+                                <li>Provide meaningful math instruction to improve the math
+                                    skills of children.</li>
+                                    <li>Provide meaningful math instruction to improve the math
+                                        skills of children.</li>
+                        </ul>
+                        <p>September 2013 - June 2014 <br /> <strong> Student Teacher
+                            Sequoyah High School|</strong> <br />
+                            Canton, GA</p>
+                            <ul>
+                                <li>Provide meaningful math instruction to improve the math
+                                    skills of children.</li>
+                                    <li>Provide meaningful math instruction to improve the math
+                                        skills of children.</li>
+                                        <li>Provide meaningful math instruction to improve the math
+                                            skills of children.</li>
+                            </ul>
+                </div>
+                <div>1</div>
+                <div>1</div>
+            </div>
+        </div>
+    </body>
+
+</html>
