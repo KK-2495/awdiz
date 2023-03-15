@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #0e89cd;
+
+}
+.header {
+    width: 100%;
+    height: 80px;
+    border: 2px solid red;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.header1 {
+    border: 2px solid black;
+    width: 6%;
+}
+.header2 {
+    border: 2px solid black;
+    width: 30%;
+}
+.header3 {
+    border: 2px solid black;
+    width: 40%;
+}
+.header4 {
+    border: 2px solid black;
+    width: 15%;
+}
