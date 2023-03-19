@@ -1,0 +1,394 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#main {
+  display: flex;
+  width: 100%;
+  /* height: 800px; */
+}
+.left {
+  background-color: #a43f49;
+  width: 25%;
+  /* height: 850px; */
+  /* position: fixed; */
+  /* background-attachment: fixed; */
+}
+.left > img {
+  border-radius: 50%;
+  margin: 25%;
+  margin-top: 20%;
+}
+.left > h1,
+p {
+  color: white;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-left: 22%;
+}
+.left > h1 {
+  margin-top: -50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
+.left > p {
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+.left > :nth-child(4) {
+  width: 100%;
+  margin-top: 50px;
+  list-style: none;
+  text-align: center;
+  font-size: 17px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.left > :nth-child(4) > li {
+  border-top: 2px solid white;
+  padding: 20px;
+}
+.left > :nth-child(4) > li:nth-child(4) {
+  border-bottom: 2px solid white;
+}
+.left > :nth-child(5) {
+  width: 58%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 12px;
+  margin-top: 50px;
+}
+.left > :nth-child(5) > i {
+  background-color: #83323a;
+  padding: 10px;
+}
+.left > :nth-child(6) {
+  width: 70%;
+  margin: auto;
+  font-style: normal;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.right {
+  background-image: url(https://templatemo.com/templates/templatemo_531_reflux/assets/images/page-bg.jpg);
+  width: 75%;
+  background-position: center;
+  background-attachment: fixed;
+}
+.right > div {
+  /* border-bottom: 2px solid gray; */
+  width: 90%;
+  margin: auto;
+}
+.right > div:nth-child(1) {
+  height: 900px;
+  text-align: center;
+  border-bottom: 2px solid gray;
+}
+.right > div:nth-child(1) > h1 {
+  color: white;
+  margin-top: 80px;
+}
+.right > div:nth-child(1) > h1::after {
+  content: "";
+  display: block;
+  border: 2px solid #a43f49;
+  width: 10%;
+  margin: auto;
+  margin-top: 8px;
+}
+.right > div:nth-child(1) > p {
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.aboutMe {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* margin: auto; */
+  /* border: 2px solid red; */
+  margin-top: 80px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid gray;
+}
+
+.aboutMe > div:nth-child(1) {
+  /* border: 2px solid white; */
+  width: 48%;
+}
+.aboutMe > div:nth-child(1) > img {
+  width: 100%;
+  border-radius: 10px;
+}
+.aboutMe > div:nth-child(2) {
+  /* border: 2px solid white; */
+  width: 48%;
+  text-align: left;
+  color: white;
+}
+.aboutMe > div:nth-child(2) > h1 {
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.aboutMe > div:nth-child(2) > :nth-child(2) {
+  text-align: left;
+  margin-left: 0;
+  width: 90%;
+  margin-top: 15px;
+  font-size: 18px;
+}
+.aboutMe > div:nth-child(2) > :nth-child(3) {
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* ******* */
+
+.aboutMe1 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 100%;
+  /* margin: auto; */
+  /* border: 2px solid red; */
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+.aboutMe1 > div:nth-child(1) {
+  /* border: 2px solid white; */
+  width: 48%;
+}
+.aboutMe1 > div:nth-child(1) > img {
+  width: 100%;
+  border-radius: 10px;
+}
+.aboutMe1 > div:nth-child(2) {
+  /* border: 2px solid white; */
+  width: 48%;
+  text-align: left;
+  color: white;
+}
+.aboutMe1 > div:nth-child(2) > h1 {
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.aboutMe1 > div:nth-child(2) > :nth-child(2) {
+  text-align: left;
+  margin-left: 0;
+  width: 90%;
+  margin-top: 15px;
+  font-size: 18px;
+}
+.aboutMe1 > div:nth-child(2) > :nth-child(3) {
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* *** */
+.right > div:nth-child(2) {
+  height: 1000px;
+  border-bottom: 2px solid gray;
+}
+.right > div:nth-child(2) > h1 {
+  color: white;
+  margin-top: 80px;
+  text-align: center;
+}
+.right > div:nth-child(2) > h1::after {
+  content: "";
+  display: block;
+  border: 2px solid #a43f49;
+  width: 10%;
+  margin: auto;
+  margin-top: 8px;
+}
+.right > div:nth-child(2) > p {
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.skills {
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+.skills > div {
+  width: 46%;
+  height: 350px;
+  border: 1px solid white;
+  margin: 14px;
+  color: white;
+  text-align: left;
+}
+.skills > div > i {
+  font-size: 40px;
+  border: 4px solid white;
+  padding: 10px;
+  border-radius: 50px;
+  width: 40px;
+  text-align: center;
+  margin: 40px;
+}
+.skills > div > h1 {
+  font-size: 28px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    margin-left: 40px;
+}
+.skills > div > p {
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  text-align: left;
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* .right > div:nth-child(3) {
+  height: 1500px;
+} */
+.right > div:nth-child(3) > h1 {
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+  }
+  .right > div:nth-child(3) > h1::after {
+    content: "";
+    display: block;
+    border: 2px solid #a43f49;
+    width: 10%;
+    margin: auto;
+    margin-top: 8px;
+  }
+  .right > div:nth-child(3) > p {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .right > div:nth-child(3)>:nth-child(3) {
+    width: 25%;
+    margin: auto;
+    margin-top: 60px;
+    font-size: 18px;
+    display: flex;
+    color: white;
+    list-style: none;
+    justify-content: space-between;
+  }
+.myWork {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 80px;
+}
+.myWork>div {
+    width: 48%;
+    /* border: 1px solid white; */
+    border-bottom: 1px solid gray;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+.myWork>div>img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.right > div:nth-child(4) > h1 {
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+  }
+  .right > div:nth-child(4) > h1::after {
+    content: "";
+    display: block;
+    border: 2px solid #a43f49;
+    width: 10%;
+    margin: auto;
+    margin-top: 8px;
+  }
+  .right > div:nth-child(4) > p {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .right > div:nth-child(5) {
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: auto;
+    color: white;
+    margin-top: 80px;
+  }
+  .right > div:nth-child(5)>div{
+    display: flex;
+    justify-content: space-between;
+  }
+  .right > div:nth-child(5)>div>input {
+    width: 46%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid white;
+    background: transparent;
+    font-size: 17px;
+  }
+  .right > div:nth-child(5)>:nth-child(2) {
+    width: 98%;
+    margin: auto;
+    padding: 10px;
+    outline: none;
+    border: 1px solid white;
+    background: transparent;
+    font-size: 17px;
+    margin-top: 30px;
+  }
+  .right > div:nth-child(5)>textarea {
+    width: 98%;
+    margin: auto;
+    padding: 10px;
+    outline: none;
+    border: 1px solid white;
+    background: transparent;
+    font-size: 17px;
+    margin-top: 30px;
+    color: white;
+  }
+  .right > div:nth-child(5)>button {
+    background-color: white;
+    padding: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #a43f49;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    margin-left: 40%;
+    margin-bottom: 50px;
+  }
